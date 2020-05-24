@@ -9,15 +9,15 @@ function waterCollected(map = []) {
     var ans = 0;
     for (let i = 0; i < map.length; ++i) {
         // for every element find the maximum right and left boundary
-        let left_max = 0;
-        let right_max = 0;
+        let left_max = 0; // maximum left
+        let right_max = 0; // maximum right
         let j = i;
-        // find left;
+        // find left max height
         while (j >= 0) {
             left_max = Math.max(left_max, map[j]);
             j--;
         }
-        // find right
+        // find right max height
         j = i;
         while (j < map.length) {
             right_max = Math.max(right_max, map[j]);
@@ -57,7 +57,7 @@ function dynamicWaterCollected(map = []) {
     return ans;
 }
 
-console.log(dynamicWaterCollected(arr))
+
 
 module.exports = {
     waterCollected,
