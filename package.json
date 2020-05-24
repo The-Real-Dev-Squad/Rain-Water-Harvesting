@@ -1,0 +1,19 @@
+{
+  "name": "mock-1",
+  "version": "1.0.0",
+  "description": "Trap Rain water Problem ",
+  "main": "trapwater.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Real-Dev-Squad/Rain-Water-Harvesting.git"
+  },
+  "author": "Kratika Chowdhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Real-Dev-Squad/Rain-Water-Harvesting/issues"
+  },
+  "homepage": "https://github.com/The-Real-Dev-Squad/Rain-Water-Harvesting#readme"
+}
